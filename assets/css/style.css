@@ -326,5 +326,42 @@ footer{
     .img-of-top img{
         border-radius: 10%;
         width: 200px;
-    };
+    }
+
+    .my-specialties h2{
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 60px;
+    }
+
+    .boxes{
+        flex-direction: column;
+        gap: none;
+    }
+
+    .personal-description{
+        flex-direction: column-reverse;
+    }
+
+    .img-of-description img{
+        width: 200px;
+        border-radius: 10%;
+    } 
+
+    .projects{
+        flex-direction: column;
+       padding: 40px 4%;
+       gap: 100px;
+    }
+
+    footer .social-midia button{
+        font-size: 15px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .flex-footer{
+        gap: 60px;
+    }
+    
 }
